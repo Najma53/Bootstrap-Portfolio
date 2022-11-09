@@ -1,11 +1,22 @@
 /* Text */
-h1, h2, h3 , h4, h5, h6 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: goldenrod
+body {
+  margin-bottom: 20px;
+}
+
+h1  {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(146, 6, 6);
+  font-weight: bolder;
+  font-style: oblique;
+}
+
+h2, h3, h3, h4, h5 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: red;
   }
   p {
-    font-family: 'Jura', sans-serif; 
-    color: gold
+    font-family: sans-serif; 
+    color: rgb(23, 22, 21);
     
   }
 
@@ -20,6 +31,8 @@ h1, h2, h3 , h4, h5, h6 {
   .navbar-nav {
     margin-left: auto;
     margin-right: 0 !important;
+    margin-bottom: 10px;
+    margin-top: 10px;
   }
   .navbar-brand img {
     padding-right: 15px;
