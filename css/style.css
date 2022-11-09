@@ -50,7 +50,7 @@ h2, h3, h3, h4, h5 {
     font-size: 15px;
   }
 
-/* Jumbotron */
+  /* Jumbotron */
   .jumbotron {
     background-image: url(../images/jumbotron.jpg);
     background-size: cover;
@@ -60,6 +60,7 @@ h2, h3, h3, h4, h5 {
     align-items: center;
     justify-content: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
   }
 
   /* Jumbotron copy */
@@ -73,10 +74,15 @@ h2, h3, h3, h4, h5 {
 }
 
 .cardContainer{
-align-items:center;
+  align-items:center;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 .card-img-top {
     width: 100%;
     height: 15vw;
     object-fit: cover;
+}
+.sectionheading {
+  margin-top: 30px;
 }
